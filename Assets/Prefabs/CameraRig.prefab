@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000013423444252}
+  m_IsPrefabParent: 1
+--- !u!1 &1000013423444252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000013490668828}
+  - component: {fileID: 114000010576194262}
+  m_Layer: 0
+  m_Name: CameraRig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013490668828
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013423444252}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.18000002, y: 1.65, z: 1.2272}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000010576194262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013423444252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c21ed7ca4daab410fa86c5927e2a1810, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UnobtrusiveObjectTag: Unobtrusive
+  SpherecastRadius: 0.1
+  OverrideCooldownTime: 3
+  HorizontalRotationSpeed: 2
+  VerticalRotationSpeed: 2
+  MaxFocalPointVerticalOffset: 0.5
+  DefaultZoomLevel: 2.5
+  ZoomSpeed: 1
+  NumberOfZoomLevels: 4
+  DefaultFieldOfView: 60
+  MaxFieldOfView: 100
+  WallDetectionAngle: 60
+  FocalPointHeight: 1.5
+  MaxXRotation: 75
+  MinXRotation: -60
+  MaxZoomDistance: 4
+  MinZoomDistance: 1
+  InvertYAxis: 1
+  InvertXAxis: 0
+  InvertZoom: 1

@@ -12,4 +12,4 @@ Also required is a tag for unobtrusive objects, i.e. objects that are allowed to
 
 ## References
 
-This project was originally based on [a tutorial by Gus the Shark](https://veilwalker.wordpress.com/2016/06/29/the-secrets-to-building-a-smooth-3rd-person-camera-rig/#more-65), but has since been expanded to include other elements as well.
+This project was originally based on [a tutorial by Gus the Shark](https://veilwalker.wordpress.com/2016/06/29/the-secrets-to-building-a-smooth-3rd-person-camera-rig/#more-65), but has since been expanded to include other elements as well, drawing heavily on points mentioned in [50 Game Camera Mistakes](www.youtube.com/watch?v=C7307qRmlMI) by John Nesky.
